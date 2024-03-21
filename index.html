@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <title>TA WEB DASAR DICODING</title>
+    <style>
+      *,
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 900px;
+        margin: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: url(img/sativa.png);
+      }
+
+      header {
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 70px;
+      }
+
+      nav {
+        width: 100%;
+        background-color: #333;
+        padding: 5px;
+        margin-bottom: 10px;
+        position: sticky;
+        top: 0;
+      }
+
+      nav ul {
+        padding-inline: 4rem;
+        display: flex;
+        gap: 2rem;
+      }
+
+      nav li {
+        list-style-type: none;
+      }
+
+      nav a {
+        color: deeppink;
+        text-decoration: none;
+        padding: 7px;
+      }
+
+      nav a:hover {
+        color: black;
+        background-color: deeppink;
+        border-radius: 40px;
+        transition: 0.7s ease-in-out;
+      }
+
+      .bogor {
+        width: 900px;
+        margin-bottom: 100px;
+      }
+
+      main {
+        /* background-image: url(img/sativa.png); */
+        background-color: #fff;
+      }
+
+      #profile {
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 50px;
+      }
+
+      #profile img {
+        width: 900px;
+        padding: 10px 20px;
+      }
+
+      #profile p {
+        font-size: 16px;
+        text-align: justify;
+        text-indent: 50px;
+        margin: 10px;
+      }
+
+      #wisata h1 {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 50px;
+      }
+
+      .flex {
+        display: flex;
+        gap: 50px;
+        padding: 10px;
+      }
+
+      .flex img {
+        width: 450px;
+        border-top: 5px solid deeppink;
+        border-bottom: 5px solid deepskyblue;
+      }
+
+      .flex h2 {
+        padding-bottom: 15px;
+        font-size: 35px;
+        margin-top: 20px;
+      }
+
+      .flex p {
+        text-align: justify;
+      }
+
+      #penulis {
+        margin-top: 50px;
+      }
+
+      #penulis img {
+        width: 60px;
+        border-radius: 25px;
+      }
+
+      #penulis p {
+        font-size: 10px;
+      }
+
+      #penulis ul {
+        margin-top: 10px;
+      }
+
+      #penulis li {
+        list-style: none;
+      }
+
+      #penulis a {
+        text-decoration: none;
+        color: deeppink;
+        font-size: 10px;
+      }
+
+      footer {
+        margin-top: 20px;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+      }
+
+      footer h1 {
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>KOTA BOGOR</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#top">BERANDA</a></li>
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#wisata">WISATA</a></li>
+        <li><a href="#penulis">PENULIS</a></li>
+      </ul>
+    </nav>
+    <img class="bogor" src="img/kota-bogor.jpg" alt="Gambar Kota Bogor" />
+
+    <main>
+      <div id="profile">
+        <h1>PROFILE</h1>
+        <img src="img/TuguKujang.jpg" alt="Gambar Tugu Kujang" />
+        <p>
+          Kota Bogor (Sunda: ᮘᮧᮌᮧᮁ, bahasa Belanda: Buitenzorg) adalah sebuah
+          kota yang terletak di provinsi Jawa Barat, Indonesia. Kota ini
+          terletak 59 km di sebelah selatan Jakarta, dan merupakan enklave
+          Kabupaten Bogor. Pada pertengahan tahun 2022, jumlah penduduk Kota
+          Bogor sebanyak 1.114.018 jiwa, dengan kepadatan 10.001 jiwa/km².
+        </p>
+
+        <p>
+          Kota Bogor dikenal dengan julukan Kota Hujan, karena memiliki curah
+          hujan yang lumayan sangat tinggi. Kota Bogor terdiri atas 6 kecamatan
+          yang dibagi lagi atas sejumlah 68 kelurahan. Pada masa Kolonial
+          Belanda, Kota Bogor dikenal dengan nama Buitenzorg yang berarti tanpa
+          kecemasan atau aman tentram.
+        </p>
+      </div>
+
+      <div class="flex">
+        <article id="wisata">
+          <h1>WISATA</h1>
+          <h2>Kebun Raya Bogor</h2>
+          <img src="img/kebun-raya-bogor.jpg" alt="Gambar Kebun Raya Bogor" />
+          <p>
+            Beridri sejak tahun 1817 di lahan seluas 87 hektar, Kebun Raya Bogor
+            merupakan rumah bagi lebih dari 15.000 spesies tanaman dan merupakan
+            tempat berdirinya istana presiden tertua di Indonesia, Istana Bogor
+            yang dibangun pada 1744.
+          </p>
+          <br />
+
+          <h2>Museum Zoologi</h2>
+          <img src="img/Museum-Zoologi.jpg" alt="Gambar Museum Zoologi" />
+          <p>
+            Museum yang telah mulai mengumpulkan koleksi satwa sejak 1894 ini
+            menyimpan jutaan fosil satwa mulai dari mamalia, unggas, hingga
+            berbagai jenis serangga dan ikan.
+          </p>
+          <br />
+
+          <h2>Taman Safari</h2>
+          <img src="img/taman-safari.jpg" alt="Gambar Taman Safari" />
+          <p>
+            Taman Safari Indonesia telah lama jadi pilihan tempat wisata yang
+            populer di Bogor. Selain bisa melihat berbagai species fauna, kalian
+            bersama keluarga bisa melihat berbagai pertunjukkan dan juga
+            berinteraksi langsung dengan berbagai fauna yang jinak.
+          </p>
+        </article>
+
+        <aside id="penulis">
+          <img src="img/M. Ferzian Safaridzaldi.jpg" alt="Foto Ferzian" />
+          <p>
+            Nama saya M. Ferzian Safaridzaldi, biasa dipanggil Ferzian. Saya
+            seorang Mahasiswa Ilmu Komputer dari Universitas Pakuan Bogor.
+          </p>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/ferzian9" target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="https://github.com/ferzian">Github</a></li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <!-- <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, cum.</h1> -->
+      <p>Copyright &copy;2023 muhammdaferziansafaridzaldi.</p>
+    </footer>
+  </body>
+</html>

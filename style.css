@@ -1,0 +1,150 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 900px;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(img/sativa.png);
+}
+
+header {
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 70px;
+}
+
+nav {
+  width: 100%;
+  background-color: #333;
+  padding: 5px;
+  margin-bottom: 10px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  padding-inline: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  color: deeppink;
+  text-decoration: none;
+  padding: 7px;
+}
+
+nav a:hover {
+  color: black;
+  background-color: deeppink;
+  border-radius: 40px;
+  transition: 0.7s ease-in-out;
+}
+
+.bogor {
+  width: 900px;
+  margin-bottom: 100px;
+}
+
+main {
+  /* background-image: url(img/sativa.png); */
+  background-color: #fff;
+}
+
+#profile {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+#profile img {
+  width: 900px;
+  padding: 10px 20px;
+}
+
+#profile p {
+  font-size: 16px;
+  text-align: justify;
+  text-indent: 50px;
+  margin: 10px;
+}
+
+#wisata h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.flex {
+  display: flex;
+  gap: 50px;
+  padding: 10px;
+}
+
+.flex img {
+  width: 450px;
+  border-top: 5px solid deeppink;
+  border-bottom: 5px solid deepskyblue;
+}
+
+.flex h2 {
+  padding-bottom: 15px;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.flex p {
+  text-align: justify;
+}
+
+#penulis {
+  margin-top: 50px;
+}
+
+#penulis img {
+  width: 60px;
+  border-radius: 25px;
+}
+
+#penulis p {
+  font-size: 10px;
+}
+
+#penulis ul {
+  margin-top: 10px;
+}
+
+#penulis li {
+  list-style: none;
+}
+
+#penulis a {
+  text-decoration: none;
+  color: deeppink;
+  font-size: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+footer h1 {
+  color: #fff;
+}
