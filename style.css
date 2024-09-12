@@ -13,10 +13,6 @@ body {
   background-image: url(img/sativa.png);
 }
 
-header {
-  padding: 20px;
-}
-
 header h1 {
   font-size: 70px;
 }
@@ -24,10 +20,8 @@ header h1 {
 nav {
   width: 100%;
   background-color: #333;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 10px;
-  position: sticky;
-  top: 0;
 }
 
 nav ul {
@@ -54,12 +48,11 @@ nav a:hover {
 }
 
 .bogor {
-  width: 900px;
-  margin-bottom: 100px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 main {
-  /* background-image: url(img/sativa.png); */
   background-color: #fff;
 }
 
